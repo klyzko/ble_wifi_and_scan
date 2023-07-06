@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bleTextView"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth" />
+
+    <ListView
+        android:id="@+id/deviceListView"
+        android:layout_width="match_parent"
+        android:layout_height="261dp" />
+
+    <TextView
+        android:id="@+id/wifiTextView"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:text="wifi" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="247dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="сохранить точку" />
+
+    <EditText
+        android:id="@+id/xEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите x" />
+
+    <EditText
+        android:id="@+id/yEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите y" />
+
+</LinearLayout>

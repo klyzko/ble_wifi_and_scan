@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">bt_rssi_scan</string>
+    <string name="reed">ReadFile</string>
+</resources>
